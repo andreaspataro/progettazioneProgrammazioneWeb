@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+
+.tavolo{
+  	width: 285px;
+  	position: relative;
+  	display: block;
+  	margin-top: 20px;
+  	margin-right: 20px;
+}
+
+.tavolo th, td {
+	width: 20px;
+	height: 20px;
+}
+
+.tavolo table { 
+	border: 5px solid #f6b94f;
+	box-shadow: 1px 1px 10px grey;
+  	border-radius: 3px;
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+.pezzo {
+	border: 1px solid black;
+}
+
+.bordino {
+	background-color: black !important;
+}
+
+.score {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: medium;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	display: block;
+	width: 200px;
+	position: relative;
+	bottom: 480px;
+	z-index: 400;
+}
+
+.score input {
+	background: none;
+	border: none;
+	color: inherit;
+	width: 70px;
+	font-size: medium;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.gameOver {
+	color: white;
+	position: absolute;
+	margin: -330px auto;
+	border: none;
+	background-color: rgba(0,0,0, 0.3);
+	border-radius: 9px;
+	text-align: center;
+	display: none;
+	font-size: 3em;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 700;
+}
+
+.restart {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	padding: 10px 10px;
+	border-radius: 6px;
+}
+
+.restart:hover {
+	filter: brightness(120%);
+}
+

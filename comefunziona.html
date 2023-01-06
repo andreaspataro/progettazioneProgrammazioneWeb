@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "it"> 
+	<head>
+		<title>TETRIS</title>
+		<meta charset = "utf-8" />
+		<meta name = "viewport" content = "initial-scale=1.0, width=device-width" />
+		<link rel = "stylesheet" type = "text/css" href = "assets/css/home.css">
+		<script src = "assets/js/navBar.js"></script>
+	</head>
+	<body>
+		<div class = "navBar" id = "navBar">
+			<div class = "logo"></div>
+			<div class = "hamburgerMenu" id = "hamburgerMenu">
+	  			<div></div>
+	  			<div></div>
+	  			<div></div>
+			</div>
+	 		<a class = "home" href = "index.html">Home</a>
+	 		<a class = "active" href = "comefunziona.html">Come Funziona</a>
+	  		<a href = "gioco.html">Gioca</a>
+	  		<a href = "storia.html">Storia</a>
+	  	</div>
+		<div class = "content expand">
+			<div class = "title paragraph">I 7 Pezzi (Tetramini)</div>
+			<div class = "pieceContainer one">
+				<div class = "piece">
+					<div class = "pieceImage I"></div>
+					<div class = "picDescription">"I"</div>
+				</div>
+				<div class = "piece">
+					<div class = "pieceImage O"></div>
+					<div class = "picDescription">"O"</div>
+				</div>
+				<div class = "piece">
+					<div class = "pieceImage S"></div>
+					<div class = "picDescription">"S"</div>
+				</div>
+				<div class = "piece">
+					<div class = "pieceImage Z"></div>
+					<div class = "picDescription">"Z"</div>
+				</div>
+				<div class = "piece">
+					<div class = "pieceImage L"></div>
+					<div class = "picDescription">"L"</div>
+				</div>
+				<div class = "piece">
+					<div class = "pieceImage J"></div>
+					<div class = "picDescription">"J"</div>
+				</div>
+				<div class = "piece">
+					<div class = "pieceImage T"></div>
+					<div class = "picDescription">"T"</div>
+				</div>
+			</div>				
+			<div class = "text pieces">Le sette possibili combinazioni in Tetris sono chiamate come le corrispondenti <a class = "bold">lettere dell'alfabeto</a> che più si avvicinano alla forma del pezzo: <a class = "bold sottotitolo">I, O, S, Z, L, J, e T.</a> Le forme dei <a class = "bold">tetramini</a> sono il risultato di tutte le possibili combinazioni che si possono ottenere disponendo 4 quadrati, ciascuno dei quali ha almeno un lato in comune con almeno uno degli altri tre quadrati.</div>
+			<div class = "text pieces">
+			Tutti i pezzi possono completare righe singole o doppie; I, L, e J possono completare anche righe triple e <a class = "bold">solo la I può completare quattro righe simultaneamente.</a> Quest'ultima situazione è chiamata un <a class = "bold">"tetris".</a><br>
+			<br>
+			Vi possono essere alcune varianti a queste caratteristiche: ciò dipende dalle regole di rotazione e di punteggio di ogni specifico gioco di Tetris; per esempio, in "Tetris Worlds" le regole sono diverse e in certe situazioni si permette a "T", "S" e "Z" di <a class = "bold">"scivolare" negli spazi vuoti</a> (come nella versione di <a class = "bold" href = "gioco.html">questo sito</a>), completando righe triple.</div>
+			<div class = "title paragraph">Obiettivo</div>
+			<div class = "text obiettivo">
+				I Tetramini, uno per volta e in selezione casuale, scendono in caduta verticale all'interno della matrice. <br>
+				<br> <a class = "bold">L' obiettivo del gioco è di manipolare i Tetramini, muovendoli lateralmente o girandoli, al fine di formare una solida linea orizzontale senza spazi.</a>
+				Quando quest'ultima viene formata, sparisce <a class = "bold">assegnando dei punti</a> e i blocchi al di sopra scendono a ricoprire lo spazio.<br>
+				<br>
+				<a class = "bold"> Il gioco termina quando non c'è più spazio disponibile per far entrare un altro Tetramino. </a>
+			</div>
+			<div class = "title paragraph last">Tetris & Matematica</div>
+			<div class = "text matematica">
+				<a class = "bold">Numerosi matematici</a>, 	nel corso degli anni, si sono dedicati all' <a class = "bold">interpretazione analitica del gioco</a> e alla definizione della sua complessità (in senso matematico). Il più noto documento di questo tipo è <a class = "bold italic">"Tetris is hard, even to approximate"</a> dei matematici <a class = "italic">Erik D. Demaine, Susan Hohenberger e David Liben-Nowell</a>, pubblicato su Computer Science nel 2002.<br>
+				<br>
+				<a class = "bold sottotitolo">È dimostrato che una partita di Tetris si conclude certamente con una sconfitta del giocatore</a> (a meno che non sia prevista la vittoria per numero di righe completate), che quindi non può continuare a giocare all'infinito, neanche se la velocità di caduta dei pezzi resta costante e il giocatore è sempre abbastanza veloce da posizionare i pezzi correttamente. <a class = "bold"> Infatti esiste un N tale che una sequenza di N pezzi S e Z, alternati, rende inevitabile la sconfitta. </a> <br> Ma in una sequenza infinita casuale di tetramini prima o poi vi sarà un'alternanza di questo tipo e di questa lunghezza, rendendo certa la sconfitta del giocatore.
+			</div> 	
+		</div>
+		<footer class="footer">
+  			<p><a class = "about" href = "about.html">About</a><br>
+  			Tetris &reg; & &copy; 1985~2019 Tetris Holding. All Rights Reserved.</p>
+		</footer> 
+	</body>	
+</html>

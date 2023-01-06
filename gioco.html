@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "it">
+	<head>
+		<title>TETRIS</title>
+		<meta charset = "utf-8">
+		<meta name = "viewport" content = "initial-scale=1.0, width=device-width" />
+		<script src = "assets/js/gioco.js"></script>
+		<link rel = "stylesheet" type = "text/css" href = "assets/css/tetris.css">
+		<link rel = "stylesheet" type = "text/css" href = "assets/css/home.css">
+	</head>
+	<body>
+		<div class = "navBar" id = "navBar">
+			<div class = "logo"></div>
+			<div class = "hamburgerMenu" id = "hamburgerMenu">
+	  			<div></div>
+	  			<div></div>
+	  			<div></div>
+			</div>
+	 		<a class = "home" href = "index.html">Home</a>
+	 		<a href = "comefunziona.html">Come Funziona</a>
+	  		<a class = "active" href = "gioco.html">Gioca</a>
+	  		<a href = "storia.html">Storia</a>
+	  	</div>
+		<div class = "content tetris" id = "content">
+			<h1 class = "titleGioco">Il Videogioco</h1>
+			<div class = "containerFlex">
+				<div class = "containerScritto">
+					<h1 class = "listTitle" id = "titoloComandi">Come Si Gioca</h1>
+					<div class = "comandi" id = "comandi" > 
+						<a class = "bold istruzioni">Freccia Su</a>: Cambio rotazione<br>
+						<a class = "bold istruzioni">Freccia Giù</a>: Discesca pezzo<br>
+						<a class = "bold istruzioni">Freccia Destra</a>: Movimento pezzo<br>
+						<a class = "bold istruzioni">Freccia Sinistra</a>: Movimento pezzo<br>
+					</div>
+					<h1 class = "listTitle obiettivoBox" id = "titoloObiettivo">Obiettivo</h1>
+					<div class = "obiettivoGioco" id = "obiettivo">
+						L' obiettivo del gioco è di <a class = "bold istruzioni">manipolare i pezzi</a>, muovendoli lateralmente o girandoli, al fine di <a class = "bold istruzioni">formare una solida linea orizzontale</a> senza spazi per <a class = "bold istruzioni">ottenere punti.</a>
+					</div>
+				</div>
+				<div class = "tavolo">
+					<table id = "matrice"></table>
+					<div class = "score"> score:
+						<input type = "text" readonly = "readonly" id = "score" value = "0"/>
+					</div>
+					<div class = "gameOver" id = "gameOver">Game Over
+						<input type = "button" value = "Riprova" id = "restartButton" class = "restart">
+					</div>
+				</div>
+			</div>
+			<p class = "text game">Questa versione di Tetris è stata realizzata seguendo le meccaniche del gioco originale. Il sistema di punteggio è ispirato a quello del gioco originale, ma non emulato ugualmente. I colori dei Tetramini sono stati scelti da una delle tante versioni presenti in commercio e/o su Internet. La rappresentazione del gioco è a puro scopo illustrativo. </p>
+		</div>
+		<footer class="footer game">
+  			<p><a class = "about" href = "about.html">About</a><br>
+  			Tetris &reg; & &copy; 1985~2019 Tetris Holding. All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>
